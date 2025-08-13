@@ -6,6 +6,13 @@
     }
 }
 
+@media (max-width: 768px) {
+  /* styles pour tablette / mobile */
+  header {
+    flex-direction: column;
+  }
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
