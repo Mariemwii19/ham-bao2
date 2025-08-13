@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@keyframes mover-izquiera-derecha {
+    from{
+        transform: translateX(-200px);
+    }
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 19px;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background-color:darkgoldenrod;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cinta{
+    background-color: black;
+    color: white;
+    padding: 5px 18%;
+    text-align: center;
+}
+
+.novedad{
+    font-size: 13px;
+    font-style: italic;
+    animation: mover-izquiera-derecha 3s 1;
+    animation-fill-mode: forwards;
+    
+}
+
+header{
+    
+    background-color: white;
+    display: flex;
+    align-items: center;
+    height: 122px;
+    padding: 5px 4%;
+    font-weight:550;
+
+    
+}
+
+
+.logo:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+.navigation li{
+    padding: 20px;
+    display:inline-block;
+}
+
+nav li:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    color:darkgoldenrod;
+}
+
+
+.contact{
+    order: 3;
+    margin-left: auto;
+}
+
+.contact li{
+    padding: 10px;
+    display:inline-block;
+}
+
+
+
+.contenido{
+   
+    margin: 100px;
+    margin-top: 50px;
+}
+
+.title{
+    background-color: white;
+    height: 30px;
+    text-align: center;
+}
